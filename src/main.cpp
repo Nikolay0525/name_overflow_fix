@@ -8,7 +8,7 @@
 //
 // The chat message uses the game's own message functions (0xEB60 build message, 0x3AB30 print, 0x193E50 destroy) and
 // the chat widget at GameController+0x800A14, exactly as the original did.
-#include "../../common.hpp"
+#include "../common.hpp"
 
 #include <cwchar>
 
