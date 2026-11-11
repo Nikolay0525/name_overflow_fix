@@ -1,0 +1,10 @@
+id = "name_overflow_fix"
+name = "Name Overflow Fix"
+version = "1.0.0"
+kyubu = "^1.1"
+sides = ["client"]
+authors = ["coremaze (original), ported"]
+description = "Fixes a buffer overflow of the /name command with too long names."
+
+[native]
+client = "bin/name_overflow_fix.dll"
